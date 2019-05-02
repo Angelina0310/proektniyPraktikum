@@ -3,10 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
-use App\User;
-use App\Token;
-use Illuminate\Support\Facades\Hash;
+use GuzzleHttp\Client
 
 class ApiController extends Controller
 {
